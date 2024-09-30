@@ -3,8 +3,8 @@ import CameronLee from './me.png';
 
 function PictureMe() {
   return (
-    <div>
-        <img src={CameronLee} alt="Cameron Lee" class="portrait" />
+    <div className="portrait-container">
+        <img src={CameronLee} alt="Cameron Lee" className="portrait" />
     </div>
   );
 }

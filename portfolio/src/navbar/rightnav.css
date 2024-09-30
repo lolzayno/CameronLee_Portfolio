@@ -1,5 +1,10 @@
 .rightnav {
-    display: flex; /* Enables Flexbox for right navbar buttons */
-    gap: 10px; /* Adds a 10px gap between the buttons */
-    align-items: center; /* Aligns the buttons vertically in the center */
-  }
+  display: flex; /* Enables Flexbox for right navbar buttons */
+  gap: 10px; /* Adds a 10px gap between the buttons */
+  align-items: center; /* Aligns the buttons vertically in the center */
+  justify-content: flex-end; /* Aligns buttons to the right */
+  overflow: hidden; /* Prevents overflow */
+  max-width: 100%; /* Ensures it doesn't exceed the viewport width */
+  flex-grow: 1; /* Allows it to take available space */
+  padding-right: 50px;
+}

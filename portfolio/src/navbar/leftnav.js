@@ -3,7 +3,7 @@ import './leftnav.css';
 function Leftnav() {
   return (
     <div className="leftnav">
-        <button class="custom-button">Home</button>
+        <a href="/" className="custom-button">Intro</a>
     </div>
   );
 }

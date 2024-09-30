@@ -13,6 +13,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a 3D effect */
     border-bottom: 2px solid black;
     justify-content: space-between;
+    overflow: hidden; /* Prevents any overflow */
 }
 
 

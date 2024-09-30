@@ -1,6 +1,15 @@
-.portrait{
-    width: 25%;
-    height: 25%;
+.portrait {
+    width: 350px; /* Set fixed width */
+    height: 350px; /* Set fixed height */
     border-radius: 50%;
     border: 5px solid #EEBC67;
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+}
+
+.portrait-container {
+    display: inline-block; /* Only take as much space as needed */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    width: auto; /* Let the width adjust to the image size */
+    height: auto; /* Let the height adjust to the image size */
 }

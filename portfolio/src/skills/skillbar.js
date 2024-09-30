@@ -20,17 +20,17 @@ function Skillbar() {
   return (
     <div className="skill-container">
         <Pill image={Python} title="Python" />
-        <Pill image={MySQL} title="MySQL" />
         <Pill image={CLang} title="C" />
         <Pill image={CSharp} title="C#" />
         <Pill image={CPlus} title="C++" />
-        <Pill image={React} title="React" />
+        <Pill image={Javascript} title="Javascript" />
         <Pill image={Html} title="HTML" />
         <Pill image={Css} title="CSS" />
+        <Pill image={React} title="React" />
         <Pill image={Net} title=".NET" />
         <Pill image={Blazor} title="Blazor" />
         <Pill image={Matlab} title="Matlab" />
-        <Pill image={Javascript} title="Javascript" />
+        <Pill image={MySQL} title="MySQL" />
         <Pill image={Github} title="Github" />
         <Pill image={Aws} title="AWS" />
         <Pill image={Googlecloud} title="Google Cloud" />
