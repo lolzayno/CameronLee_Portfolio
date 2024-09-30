@@ -1,0 +1,5 @@
+.leftnav {
+    display: flex; /* Enables Flexbox for left navbar buttons */
+    gap: 10px; /* Adds a 10px gap between the buttons */
+    align-items: center; /* Aligns the buttons vertically in the center */
+  }

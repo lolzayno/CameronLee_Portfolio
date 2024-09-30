@@ -1,0 +1,33 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #EEBC67;
+    padding: 10px 20px;
+    position: fixed; /* This makes it stick to the top */
+    top: 0; /* Aligns the navbar at the top */
+    left: 0; /* Ensures it starts from the left edge of the screen */
+    z-index: 1000; /* Ensures it stays on top of other content */
+    display: flex; /* Optional: Use this to align items inside the navbar */
+    align-items: center; /* Optional: Vertically center content inside the navbar */
+    padding: 0 20px; /* Optional: Adds padding inside the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for a 3D effect */
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+
+.custom-button {
+    background-color: #EEBC67; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Rounds the button edges */
+    font-size: 16px; /* Increases text size */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.custom-button:hover {
+    background-color: #EEA62C; /* Darker green when hovering */
+}

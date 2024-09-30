@@ -1,10 +1,47 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 .intro-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 100px 0px;
 }
 
 .description-container {
-    margin-left: -1100px;          /* Optional: Add a small margin for spacing */
+    margin-left: -55%;          /* Optional: Add a small margin for spacing */
     width: 25%;
+}
+
+.social-git {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.social-linked {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: -1px solid #0077B5;
+}
+
+.social-twitch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: -1px solid #6441a5;
+}
+
+.social-youtube {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: -1px solid #FF0000;
+}
+.social-container {
+    display: flex;
+    gap: 5px; /* This adds space between the images */
+    margin-top: 10px; /* Optional: Adds space between the social icons and the description */
 }

@@ -1,0 +1,18 @@
+.image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 5px;
+}
+
+.pill-container {
+    display: inline-flex; /* Keeps content in a row without stretching */
+    align-items: center;
+    padding: 0px 10px; /* Adds some space inside the pill without making it too wide */
+    background-color: #EEBC67;
+    border: 2px solid black; /* Border around the container */
+    border-radius: 25px; /* Rounded edges */
+    margin: 10px; /* Optional: Adds space outside the pill */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a nice effect */
+}   
