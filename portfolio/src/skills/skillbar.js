@@ -19,21 +19,39 @@ import Googlecloud from './googlecloud.png';
 function Skillbar() {
   return (
     <div className="skill-container">
-        <Pill image={Python} title="Python" />
+        <a href="/projects" className="skill-button">
+          <Pill image={Python} title="Python" />
+        </a>
         <Pill image={CLang} title="C" />
-        <Pill image={CSharp} title="C#" />
+        <a href="/experience" className="skill-button">
+          <Pill image={CSharp} title="C#" />
+        </a>
         <Pill image={CPlus} title="C++" />
         <Pill image={Javascript} title="Javascript" />
         <Pill image={Html} title="HTML" />
         <Pill image={Css} title="CSS" />
-        <Pill image={React} title="React" />
-        <Pill image={Net} title=".NET" />
-        <Pill image={Blazor} title="Blazor" />
+        <a href="/projects" className="skill-button">
+          <Pill image={React} title="React" />
+        </a>
+        <a href="/experience" className="skill-button">
+          <Pill image={Net} title=".NET" />
+        </a>
+        <a href="/experience" className="skill-button">
+          <Pill image={Blazor} title="Blazor" />
+        </a>
         <Pill image={Matlab} title="Matlab" />
-        <Pill image={MySQL} title="MySQL" />
-        <Pill image={Github} title="Github" />
-        <Pill image={Aws} title="AWS" />
-        <Pill image={Googlecloud} title="Google Cloud" />
+        <a href="/projects" className="skill-button">
+          <Pill image={MySQL} title="MySQL" />
+        </a>
+        <a href="/projects" className="skill-button">
+          <Pill image={Github} title="Github" />
+        </a>
+        <a href="/projects" className="skill-button">
+          <Pill image={Aws} title="AWS" />
+        </a>
+        <a href="/projects" className="skill-button">
+          <Pill image={Googlecloud} title="Google Cloud" />
+        </a>
       </div>
   );
 }

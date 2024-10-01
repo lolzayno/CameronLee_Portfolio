@@ -51,3 +51,20 @@
     gap: 5px; /* This adds space between the images */
     margin-top: 10px; /* Optional: Adds space between the social icons and the description */
 }
+
+.pill {
+    display: inline-block; /* Make it inline-block to fit the text */
+    padding: 5px 15px; /* Add padding for spacing inside the pill */
+    border-radius: 50px; /* Create rounded edges for the pill shape */
+    background-color: #EEBC67; /* Set the background color (adjust as needed) */
+    color: black; /* Set the text color */
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold; /* Optional: Make the text bold */
+    transition: background-color 0.3s; /* Add a transition effect */
+    border: 1px solid black;
+}
+
+/* Optional: Change background color on hover */
+.pill:hover {
+    background-color: #EEA62C; /* Darken the background on hover */
+}

@@ -4,6 +4,7 @@ import Name from './name';
 import Description from './description';
 import Github from '../skills/github.png';
 import Linkedin from './link.png';
+
 function Introduction() {
   return (
     <div className="intro-container">
@@ -18,6 +19,12 @@ function Introduction() {
               </a>
               <a href="https://www.linkedin.com/in/cameron-lee-57a6561a9/" target="_blank" rel="noopener noreferrer">
                 <img src={Linkedin} alt="LinkedIn" className="social-linked" />
+              </a>
+              <a href="/Cameron_Lee_Resume.pdf" download="Cameron_Lee_Resume.pdf">
+                <span className="pill">Resume</span>
+              </a>
+              <a href="/CameronLee_Transcript.pdf" download="CameronLee_Transcript.pdf">
+                <span className="pill">Transcript</span>
               </a>
             </div>
         </div>

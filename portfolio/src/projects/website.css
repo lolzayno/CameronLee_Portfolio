@@ -25,6 +25,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 3px solid black;
 }
 
 .website-container h1 {
@@ -36,3 +37,9 @@
     margin: 0; /* Remove all default margin */
     padding: 5px 0; /* Optional: Add some padding if needed */
 }
+
+.website-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
