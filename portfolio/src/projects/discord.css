@@ -18,3 +18,13 @@
     height: 150px;
     border-radius: 50%;
 }
+
+.discord-container h1 {
+    margin-top: 0; /* Ensure no extra space at the top */
+    margin-bottom: 10px; /* Control space below the h1 */
+}
+
+.discord-container h4 {
+    margin: 0; /* Remove all default margin */
+    padding: 5px 0; /* Optional: Add some padding if needed */
+}
