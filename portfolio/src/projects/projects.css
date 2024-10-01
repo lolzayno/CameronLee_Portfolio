@@ -1,0 +1,8 @@
+.project-container {
+    margin: 100px 0px; /* Remove the margin unless you need extra spacing */
+    display: flex; /* Set flexbox on the container */
+    justify-content: center; /* Center content horizontally inside the project container */
+    align-items: center; /* Center content vertically inside the project container */
+    flex-direction: column; /* Correct the column layout */
+    gap: 20px;
+}

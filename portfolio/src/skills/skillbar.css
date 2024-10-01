@@ -6,6 +6,6 @@
     background-color: whitesmoke;
     border: 2px solid black; /* Border around the container */
     border-radius: 25px; /* Rounded edges */
-    margin: 50px; /* Optional: Adds space outside the pill */
+    margin: 110px; /* Optional: Adds space outside the pill */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a nice effect */
 }

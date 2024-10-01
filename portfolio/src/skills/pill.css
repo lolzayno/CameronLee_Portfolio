@@ -9,7 +9,7 @@
 .pill-container {
     display: inline-flex; /* Keeps content in a row without stretching */
     align-items: center;
-    padding: 0px 10px; /* Adds some space inside the pill without making it too wide */
+    padding: 2px 5px; /* Adds some space inside the pill without making it too wide */
     background-color: #EEBC67;
     border: 2px solid black; /* Border around the container */
     border-radius: 25px; /* Rounded edges */

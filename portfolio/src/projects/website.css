@@ -1,0 +1,21 @@
+.website-container {
+    background-color: whitesmoke;
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 50%;
+    border: 2px solid black;
+    text-align: right; /* Aligns text and inline elements to the right */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns the entire content to the right */
+}
+
+.description {
+    width: 40%;
+    text-align: right; /* Aligns text inside the description div to the right */
+}
+.zayn-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

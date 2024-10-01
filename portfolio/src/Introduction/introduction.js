@@ -4,8 +4,6 @@ import Name from './name';
 import Description from './description';
 import Github from '../skills/github.png';
 import Linkedin from './link.png';
-import Twitch from './twitch.png';
-import Youtube from './youtube.png';
 function Introduction() {
   return (
     <div className="intro-container">
@@ -20,12 +18,6 @@ function Introduction() {
               </a>
               <a href="https://www.linkedin.com/in/cameron-lee-57a6561a9/" target="_blank" rel="noopener noreferrer">
                 <img src={Linkedin} alt="LinkedIn" className="social-linked" />
-              </a>
-              <a href="https://www.twitch.tv/lolzayno" target="_blank" rel="noopener noreferrer">
-                <img src={Twitch} alt="Twitch" className="social-twitch" />
-              </a>
-              <a href="https://www.youtube.com/@lolzayno5872" target="_blank" rel="noopener noreferrer">
-                <img src={Youtube} alt="Youtube" className="social-youtube" />
               </a>
             </div>
         </div>
