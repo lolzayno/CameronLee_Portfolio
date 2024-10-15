@@ -17,7 +17,7 @@ function Introduction() {
               <a href="https://github.com/lolzayno" target="_blank" rel="noopener noreferrer">
                 <img src={Github} alt="Github" className="social-git" />
               </a>
-              <a href="https://www.linkedin.com/in/cameron-lee-57a6561a9/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/cameronwilliamlee/" target="_blank" rel="noopener noreferrer">
                 <img src={Linkedin} alt="LinkedIn" className="social-linked" />
               </a>
               <a href="/Cameron_Lee_Resume.pdf" download="Cameron_Lee_Resume.pdf">

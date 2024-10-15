@@ -1,31 +1,53 @@
- .website-container {
+.website-container {
     background-color: whitesmoke;
     padding: 10px 50px;
     border-radius: 10px;
     width: 50%;
     border: 2px solid black;
-    text-align: right; /* Aligns text and inline elements to the right */
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Aligns the entire content to the right */
 }
 
-.website-description {
-    display: flex;
-    justify-content: flex-end; /* Align the text to the right */
-    width: 40%; /* Ensure it takes up the available space */
+.content-container {
+    display: flex; /* Enables side-by-side layout */
+    align-items: flex-start; /* Aligns items vertically at the top */
+    width: 100%; /* Full width of the container */
 }
 
-.website-description p {
-    width: 100%;
-    text-align: right;
-    margin: 0;
+.video-container {
+    width: 75%; /* Adjust the width as necessary */
+    margin-right: 20px; /* Space between video and text container */
 }
+
+.demo-video {
+    width: 100%; /* Makes the video responsive */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    border: 2px solid black;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    align-items: flex-end; /* Aligns text elements to the right */
+    text-align: right; /* Align text to the right */
+}
+
 .zayn-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 3px solid black;
+}
+
+.website-description {
+    width: 100%; /* Ensure it takes up the available space */
+    text-align: right;
+}
+
+.website-description p {
+    margin: 0; /* Remove default margin */
+    text-align: right;
 }
 
 .website-container h1 {
@@ -42,4 +64,4 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-  }
+}
